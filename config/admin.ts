@@ -19,16 +19,31 @@ export default ({ env }) => ({
   },
   // Preview button configuration
   preview: {
-    enabled: true,
+    enabled: env.bool("PREVIEW_ENABLED", true),
     config: {
-      allowedOrigins: env("CLIENT_URL"),
+      allowedOrigins: env("CLIENT_URL", "http://localhost:8000"),
       async handler(uid, { documentId, locale, status }) {
-        const previewUrl = env("PREVIEW_URL")
+        // Get environment variables with fallbacks for local development
+        const previewUrl = env("PREVIEW_URL") || env("CLIENT_URL", "http://localhost:8000")
         const previewSecret = env("PREVIEW_SECRET")
 
+        // Log configuration for debugging
+        console.log("[Preview] Configuration:", {
+          previewUrl,
+          hasSecret: !!previewSecret,
+          uid,
+          documentId,
+          status,
+          locale,
+        })
+
         if (!previewUrl || !previewSecret) {
-          console.warn(
-            "[Preview] Missing PREVIEW_URL or PREVIEW_SECRET environment variables"
+          console.error(
+            "[Preview] ERROR: Missing required environment variables!",
+            {
+              PREVIEW_URL: !!previewUrl,
+              PREVIEW_SECRET: !!previewSecret,
+            }
           )
           return null
         }
@@ -60,7 +75,7 @@ export default ({ env }) => ({
           url.searchParams.set("locale", locale)
         }
 
-        console.log(`[Preview] Generated preview URL for ${uid}:`, url.toString())
+        console.log(`[Preview] ✅ Generated preview URL for ${uid}:`, url.toString())
 
         return url.toString()
       },

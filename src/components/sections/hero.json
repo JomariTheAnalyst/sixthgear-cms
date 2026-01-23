@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "trust_badge": {
+      "type": "string"
+    },
+    "primary_cta_text": {
+      "type": "string"
+    },
+    "secondary_cta_text": {
+      "type": "string"
+    },
+    "primary_cta_link": {
+      "type": "string"
+    },
+    "secondary_cta_link": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "hero_bg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

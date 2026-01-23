@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_highlight_items",
+  "info": {
+    "displayName": "highlight-item"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

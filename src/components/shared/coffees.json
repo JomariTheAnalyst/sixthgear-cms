@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_coffees",
+  "info": {
+    "displayName": "coffees"
+  },
+  "options": {},
+  "attributes": {
+    "coffee_name": {
+      "type": "string"
+    },
+    "coffee_description": {
+      "type": "text"
+    },
+    "coffee_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_moto_services",
+  "info": {
+    "displayName": "moto-services"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_description": {
+      "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "component": "shared.service-cards",
+      "repeatable": true
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

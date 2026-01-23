@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_service_cards",
+  "info": {
+    "displayName": "service_cards"
+  },
+  "options": {},
+  "attributes": {
+    "services_name": {
+      "type": "string"
+    },
+    "services_description": {
+      "type": "text"
+    },
+    "services_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

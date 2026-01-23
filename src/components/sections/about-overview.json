@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_sections_about_overviews",
+  "info": {
+    "displayName": "about-overview"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlights": {
+      "type": "component",
+      "component": "shared.highlight-item",
+      "repeatable": true
+    },
+    "primary_cta_text": {
+      "type": "string"
+    },
+    "primary_cta_link": {
+      "type": "string"
+    },
+    "image_top": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "video_url": {
+      "type": "text"
+    },
+    "image_bottom": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_coffee_showcases",
+  "info": {
+    "displayName": "coffee_showcase"
+  },
+  "options": {},
+  "attributes": {
+    "heading_line_1": {
+      "type": "string"
+    },
+    "heading_highlight": {
+      "type": "string"
+    },
+    "heading_line_2": {
+      "type": "string"
+    },
+    "coffees": {
+      "type": "component",
+      "component": "shared.coffees",
+      "repeatable": true
+    },
+    "footer_text": {
+      "type": "text"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

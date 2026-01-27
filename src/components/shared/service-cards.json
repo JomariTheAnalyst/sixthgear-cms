@@ -21,6 +21,9 @@
         "audios"
       ]
     },
+    "card_link": {
+      "type": "string"
+    },
     "enabled": {
       "type": "boolean"
     }

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "marketings",
+  "info": {
+    "singularName": "marketing",
+    "pluralName": "marketings",
+    "displayName": "Marketing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.announcement-strips"
+      ]
+    }
+  }
+}

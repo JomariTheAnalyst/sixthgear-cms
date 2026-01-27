@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_space_and_experiences",
+  "info": {
+    "displayName": "space and experience"
+  },
+  "options": {},
+  "attributes": {
+    "experience_title": {
+      "type": "string"
+    },
+    "experience_desc": {
+      "type": "text"
+    },
+    "experience_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "enable": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

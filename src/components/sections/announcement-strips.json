@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_announcement_strips",
+  "info": {
+    "displayName": "announcement-strips"
+  },
+  "options": {},
+  "attributes": {
+    "announcement_ads": {
+      "type": "component",
+      "component": "shared.announcement-strips",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

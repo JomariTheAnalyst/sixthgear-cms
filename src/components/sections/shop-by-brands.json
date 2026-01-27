@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_shop_by_brands",
+  "info": {
+    "displayName": "shop-by-brands"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "brands": {
+      "type": "component",
+      "component": "shared.partner-brands",
+      "repeatable": true
+    },
+    "enable": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

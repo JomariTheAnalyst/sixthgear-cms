@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_announcement_strips",
+  "info": {
+    "displayName": "announcement strips"
+  },
+  "options": {},
+  "attributes": {
+    "item_1": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

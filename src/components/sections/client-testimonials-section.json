@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_client_testimonials_sections",
+  "info": {
+    "displayName": "client testimonials - section"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_desc": {
+      "type": "text"
+    },
+    "client_testimonials": {
+      "type": "component",
+      "component": "shared.client-testimonials",
+      "repeatable": true
+    },
+    "enable": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

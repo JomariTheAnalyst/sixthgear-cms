@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_rider_stories_sections",
+  "info": {
+    "displayName": "rider stories -section"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_desc": {
+      "type": "text"
+    },
+    "rider_stories": {
+      "type": "component",
+      "component": "shared.rider-stories",
+      "repeatable": true
+    },
+    "enable": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

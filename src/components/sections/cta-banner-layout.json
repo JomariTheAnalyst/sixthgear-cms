@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_sections_cta_banner_layouts",
+  "info": {
+    "displayName": "cta banner layout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "title_desc": {
+      "type": "text"
+    },
+    "tiktok_link": {
+      "type": "string"
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "opening_hours": {
+      "type": "text"
+    },
+    "enable": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

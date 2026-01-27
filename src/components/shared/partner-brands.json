@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_partner_brands",
+  "info": {
+    "displayName": "partner brands"
+  },
+  "options": {},
+  "attributes": {
+    "brand_name": {
+      "type": "string"
+    },
+    "brand_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "button_name": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

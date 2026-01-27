@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_satisfied_customers_row_2s",
+  "info": {
+    "displayName": "satisfied customers - row 2"
+  },
+  "options": {},
+  "attributes": {
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

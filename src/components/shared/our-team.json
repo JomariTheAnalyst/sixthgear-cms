@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_our_teams",
+  "info": {
+    "displayName": "our team"
+  },
+  "options": {},
+  "attributes": {
+    "team_name": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "team_description": {
+      "type": "text"
+    },
+    "team_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "facebook_links": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "tiktok_link": {
+      "type": "string"
+    },
+    "job_subtitle": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

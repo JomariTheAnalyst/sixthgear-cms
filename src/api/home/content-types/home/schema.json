@@ -17,7 +17,14 @@
         "sections.hero",
         "sections.about-overview",
         "sections.coffee-showcase",
-        "sections.moto-services"
+        "sections.moto-services",
+        "sections.shop-by-brands",
+        "sections.our-team-section",
+        "sections.client-testimonials-section",
+        "sections.our-space-and-experience-section",
+        "sections.satisfied-customers-section",
+        "sections.rider-stories-section",
+        "sections.cta-banner-layout"
       ]
     }
   }

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_rider_stories",
+  "info": {
+    "displayName": "rider stories"
+  },
+  "options": {},
+  "attributes": {
+    "story_title": {
+      "type": "string"
+    },
+    "story_desc": {
+      "type": "text"
+    },
+    "rider_name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

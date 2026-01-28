@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_menu_section_first_section_coffee_menu_pages",
+  "info": {
+    "displayName": "first section - coffee menu page"
+  },
+  "options": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_about_sections_first_sections",
+  "info": {
+    "displayName": "first-section"
+  },
+  "options": {},
+  "attributes": {
+    "badgeText": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "overlayStrength": {
+      "type": "biginteger"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

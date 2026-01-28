@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_menu_variants",
+  "info": {
+    "displayName": "variants"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

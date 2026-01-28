@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_about_sections_ceo_quote_sections",
+  "info": {
+    "displayName": "ceo quote - sections"
+  },
+  "options": {},
+  "attributes": {
+    "quoteText": {
+      "type": "text"
+    },
+    "highlightedPhrase": {
+      "type": "string"
+    },
+    "ceoName": {
+      "type": "string"
+    },
+    "ceoTitle": {
+      "type": "string"
+    },
+    "ceoPhoto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

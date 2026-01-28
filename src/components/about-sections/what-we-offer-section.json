@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_sections_what_we_offer_sections",
+  "info": {
+    "displayName": "what we offer - section"
+  },
+  "options": {},
+  "attributes": {
+    "section_name": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "offering_card": {
+      "type": "component",
+      "component": "shared-about.offering-card",
+      "repeatable": true
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

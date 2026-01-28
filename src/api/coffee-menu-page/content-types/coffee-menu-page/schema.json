@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "coffee_menu_pages",
+  "info": {
+    "singularName": "coffee-menu-page",
+    "pluralName": "coffee-menu-pages",
+    "displayName": "coffee menu page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "menu-section.first-section-coffee-menu-page"
+      ]
+    }
+  }
+}

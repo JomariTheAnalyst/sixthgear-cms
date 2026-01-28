@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_about_sections_second_sections",
+  "info": {
+    "displayName": "second-section"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "badgeText": {
+      "type": "string"
+    },
+    "badgePosition": {
+      "type": "enumeration",
+      "enum": [
+        "bottom-left",
+        "bottom-right",
+        "top-left",
+        "top-right"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "highlightedText": {
+      "type": "string"
+    },
+    "bodyText": {
+      "type": "blocks"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

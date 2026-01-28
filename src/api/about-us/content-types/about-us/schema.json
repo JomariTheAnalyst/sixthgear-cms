@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uss",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uss",
+    "displayName": "about us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "about-sections.what-we-offer-section",
+        "about-sections.second-section",
+        "about-sections.first-section",
+        "about-sections.ceo-quote-sections"
+      ]
+    }
+  }
+}
